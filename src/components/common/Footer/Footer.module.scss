@@ -1,0 +1,13 @@
+@import "../../../assets/scss/variables";
+
+@media (any-hover: hover) {
+  .footer {
+
+  }
+}
+
+.footer {
+  background: $blackColor;
+  color:      $whiteColor;
+  padding:    1rem 0;
+}

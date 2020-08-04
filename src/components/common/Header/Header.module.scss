@@ -1,0 +1,21 @@
+@import "../../../assets/scss/variables";
+
+@media (any-hover: hover) {
+  .header {
+
+  }
+}
+
+.header {
+  width:       100%;
+  padding:     1rem 0;
+  position:    fixed;
+  z-index:     20;
+  top:         0;
+  left:        0;
+  background:  $blackColor;
+  color:       $whiteColor;
+  display:     flex;
+  align-items: center;
+  transition:  0.2s linear;
+}
